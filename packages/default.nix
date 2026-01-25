@@ -31,7 +31,7 @@
         ];
 
         stdShellArgs = ''
-          export LC_ALL="C"
+          export LC_ALL="C.UTF-8"
           export SSL_CERT_FILE="${pkgs.cacert}/etc/ssl/certs/ca-bundle.crt"
           export PATH=${lib.makeBinPath stdPath}
         '';
